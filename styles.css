@@ -31,3 +31,71 @@ header {
     color: grey;
     text-decoration: none;
 }
+
+.btn {
+    padding: 5px;
+    background-color: rgb(0, 129, 129);
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.bordered {
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+.breadtext {
+    color: grey;
+}
+
+.btn:hover {
+    background-color: rgb(67, 132, 110);
+}
+
+.section {
+    height: 40%;
+    padding: 50px 10vw;
+    margin: 0 auto;
+}
+
+/* Content */
+
+.content-image-section {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-color);
+    gap: 3vw;
+    color: white;
+}
+
+#content-image {
+    height: 200px;
+    width: 400px;
+}
+
+.image-section-title {
+    font-size: 40px;
+}
+
+.image-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.image-section-text .btn{
+    width: 100px;
+    color: white;
+}
+
+/* random */
+
+.random-info img {
+    height: 170px;
+    width: 200px;
+}
+
+.random-images {
+    display: flex;
+}
