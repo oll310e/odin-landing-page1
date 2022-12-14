@@ -98,4 +98,12 @@ header {
 
 .random-images {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.random-info-section {
+    text-align: center;
 }
