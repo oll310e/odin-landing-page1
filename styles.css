@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: rgb(32, 32, 46);
+
+}
+
+/* Header */
+
+header {
+    background-color: var(--header-color);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 100px;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+}
+
+.header-link {
+    color: grey;
+    text-decoration: none;
+}
