@@ -35,7 +35,7 @@ header {
 /* parts */
 
 .btn {
-    padding: 5px;
+    padding: 5px 20px;
     background-color: rgb(0, 129, 129);
     cursor: pointer;
     transition: ease-in 0.2s;
@@ -143,4 +143,31 @@ header {
     font-weight: 600;
     align-self: flex-end;
     margin-right: 50px;
+}
+
+.call-section {
+    padding: 60px 4vw;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 84);
+    padding: 40px 70px;
+    color: white;
+    font-size: smaller;
+    border-radius: 7px;
+}
+
+.call-container .btn {
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--header-color);
+    text-align: center;
+    padding: 30px 100px;
+    color: white;
 }
